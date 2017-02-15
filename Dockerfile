@@ -17,6 +17,7 @@ RUN REPO=http://cdn-fastly.deb.debian.org \
  && apt-get install -yq --no-install-recommends \
     wget \
     bzip2 \
+    screen \
     ca-certificates \
     sudo \
     locales \
